@@ -1,12 +1,12 @@
-(package "chatgpt"
+(package "deimacs"
          "0.1.0"
-         "Use ChatGPT inside Emacs")
+         "Use Martian inside Emacs")
 
-(website-url "https://github.com/emacs-openai/chatgpt")
+(website-url "https://github.com/shihabdider/deimacs")
 (keywords "comm" "openai")
 
-(package-file "chatgpt.el")
-(files "chatgpt-*.el")
+(package-file "deimacs.el")
+(files "deimacs-*.el")
 
 (script "test" "echo \"Error: no test specified\" && exit 1")
 
